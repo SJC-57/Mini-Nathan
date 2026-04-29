@@ -1,9 +1,16 @@
 #include Servo.h
-//primera librería, después agrego más
+#include 
 
 Servo cabeza;
 int buzzer = 8;
 int led = 7 
+int a = 
+int b = 
+int c = 
+int d = 
+int e = 
+int f = 
+int g = 
   
 void setup() {
   Serial.begin(9600)
@@ -32,6 +39,8 @@ void loop() {
   delay(1000);
   digitalWrite(led, LOW);
   delay(500);
+
+
 
 
 
