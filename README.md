@@ -6,8 +6,8 @@ Consiste de dos servos que hacen mover una cabeza tanto vertical como horizontal
 
 Materiales: 
 
-Arduino Uno 
-Servos 
-Buzzer pasivo
-LED
-Sensor táctil capacitivo TTP223B
+- Arduino Uno 
+- Servos 
+- Buzzer pasivo
+- LED
+- Sensor táctil capacitivo TTP223B
