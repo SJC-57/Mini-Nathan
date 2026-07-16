@@ -1,14 +1,13 @@
 # Mini-Nathan
 
 Este es el primer proyecto de hardware que he hecho.
-Robot que sirve tanto como reloj digital y reproductor de música básico.
-Consiste de servos que hacen mover una cabeza, un buzzer que reproduce musica, un modulo de tiempo, un display para mostrar la hora y dos leds.
+Robot que sirve tanto como pet de mesa y reproductor de música básico. Busca a alguien mirando a los lados y se duerme si no encuentra a nadie por mucho tiempo.
+Consiste de dos servos que hacen mover una cabeza tanto vertical como horizontalmente, un buzzer que reproduce musica, un sensor táctil y un led.
 
 Materiales: 
 
 Arduino Uno 
-TM1637 4-Digit Display
-servos 
-buzzer pasivo
-LEDs
-DS3231 RTC Module 
+Servos 
+Buzzer pasivo
+LED
+Sensor táctil capacitivo TTP223B
