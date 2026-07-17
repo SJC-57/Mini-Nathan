@@ -63,10 +63,13 @@ void tocarCancion1() {
   for (int i = 0; i < 8; i++) {
     if (notas[i] == 0) {
       delay(duraciones[i]);
-    } else {
+    } 
+
+    else {
       tone(pin_buzzer, notas[i], duraciones[i]);
       delay(duraciones[i] * 1.30); // Pausa breve entre notas
     }
+
   }
   noTone(pin_buzzer);
 }
@@ -80,6 +83,7 @@ void tocarCancion2() {
     tone(pin_buzzer, notas[i], duraciones[i]);
     delay(duraciones[i] * 1.30);
   }
+
   noTone(pin_buzzer);
 }
 
@@ -91,7 +95,9 @@ void tocarCancion3() {
   for (int i = 0; i < 9; i++) {
     if (notas[i] == 0) {
       delay(duraciones[i]);
-    } else {
+    } 
+
+    else {
       tone(pin_buzzer, notas[i], duraciones[i]);
       delay(duraciones[i] * 1.30);
     }
@@ -101,6 +107,7 @@ void tocarCancion3() {
 
 void setup(){
 
+  Serial.begin(9600); 
   pinMode(pin_touch, INPUT);
   pinMode(pin_echo, INPUT);
   pinMode(pin_trigger, OUTPUT);
@@ -164,6 +171,7 @@ void loop(){
 
       long duracion = pulseIn(pin_echo, HIGH, 20000);
       long distancia = duracion*0.034/2;
+      Serial.println(distancia);
 
       if (distancia > 2 && distancia < 50){
 
