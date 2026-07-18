@@ -125,6 +125,9 @@ void setup(){
 
 void loop(){
 
+  long duracion; 
+  long distancia; 
+
   switch (estado_actual) {
 
     case DORMIDO:
@@ -169,8 +172,8 @@ void loop(){
       delayMicroseconds(10);
       digitalWrite(pin_trigger, LOW);
 
-      long duracion = pulseIn(pin_echo, HIGH, 20000);
-      long distancia = duracion*0.034/2;
+      duracion = pulseIn(pin_echo, HIGH, 20000);
+      distancia = duracion*0.034/2;
       Serial.println(distancia);
 
       if (distancia > 2 && distancia < 50){
