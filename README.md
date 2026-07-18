@@ -11,5 +11,6 @@ Materiales:
 - Buzzer pasivo
 - LED
 - Sensor táctil capacitivo TTP223B
+- 4 Pilas AA
 
 En la carpeta del diseño el assembly se puede encontrar en el archivo llamado "Full Robot".
