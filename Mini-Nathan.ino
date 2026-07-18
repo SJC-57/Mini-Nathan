@@ -38,8 +38,8 @@ int pin_trigger = 2;
 int pin_echo = 3;
 
 //Pines extras
-int led = 7;
-int pin_buzzer = 9;
+const int led = 7;
+const int pin_buzzer = 9;
 
 //Asignación de servos
 Servo servo_horizontal;
@@ -254,6 +254,8 @@ void loop(){
       ultima_actividad = millis();
       estado_actual = DESPIERTO;
       break; 
+
+      //Esta versión después de probada, el servo se demora demasiado en responder debido a la gran cantidad de delays. Para las siguientes quitaré ese error
   }
 }
 
