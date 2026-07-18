@@ -55,7 +55,7 @@ enum estado {
 
 estado estado_actual = DORMIDO;
 
-//victory
+// victory sound
 void tocarCancion1() {
   int notas[] = { NOTE_C4, NOTE_G4, NOTE_G4, NOTE_A4, NOTE_G4, 0, NOTE_B4, NOTE_C5 };
   int duraciones[] = { 150, 150, 150, 200, 200, 150, 150, 300 };
@@ -67,14 +67,14 @@ void tocarCancion1() {
 
     else {
       tone(pin_buzzer, notas[i], duraciones[i]);
-      delay(duraciones[i] * 1.30); // Pausa breve entre notas
+      delay(duraciones[i] * 1.30);
     }
 
   }
   noTone(pin_buzzer);
 }
 
-//star wars
+// star wars
 void tocarCancion2() {
   int notas[] = { NOTE_A4, NOTE_A4, NOTE_A4, NOTE_F4, NOTE_C5, NOTE_A4, NOTE_F4, NOTE_C5, NOTE_A4 };
   int duraciones[] = { 300, 300, 300, 200, 100, 300, 200, 100, 400 };
