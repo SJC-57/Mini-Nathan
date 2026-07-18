@@ -260,7 +260,6 @@ void loop(){
       estado_actual = DESPIERTO;
       break; 
 
-      //Esta versión después de probada, el servo se demora demasiado en responder debido a la gran cantidad de delays. Para las siguientes quitaré ese error
   }
 }
 
