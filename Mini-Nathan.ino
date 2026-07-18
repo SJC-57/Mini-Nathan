@@ -203,25 +203,30 @@ void loop(){
       //TOCAR MELODÍA 
 
       if (digitalRead(pin_touch) == HIGH) {
+        
         canciones_tocadas++;
 
         if (canciones_tocadas > 3) {
           canciones_tocadas = 0;
         }
-        else if (canciones_tocadas == 1) {
-          tocarCancion1();
-        }
-        else if (canciones_tocadas == 2) {
-          tocarCancion2();
-        }
-        else if (canciones_tocadas == 3) {
-          tocarCancion3();
-        }
-        else if (canciones_tocadas == 0){
+
+        if (canciones_tocadas == 0){
           
           tone(pin_buzzer, 220, 50);
           delay(50);
           noTone(pin_buzzer);
+        }
+
+        else if (canciones_tocadas == 1) {
+          tocarCancion1();
+        }
+
+        else if (canciones_tocadas == 2) {
+          tocarCancion2();
+        }
+        
+        else if (canciones_tocadas == 3) {
+          tocarCancion3();
         }
         
         delay(300); //para el rebote
