@@ -224,7 +224,7 @@ void loop(){
           noTone(pin_buzzer);
         }
         
-        delay(300);
+        delay(300); //para el rebote
         ultima_actividad = millis();
 
       }
