@@ -6,12 +6,15 @@ Consiste en dos servos que hacen mover una cabeza tanto vertical como horizontal
 
 ## Materiales: 
 
-- Arduino Uno 
-- Servos 
-- Buzzer pasivo
-- LED
-- Sensor táctil capacitivo TTP223B
-- 4 Pilas AA
+- 1x Arduino Uno R3
+- 2x Servo SG90
+- 1x Buzzer pasivo
+- 1x LED 5mm
+- 1x Sensor de distancia ultrasónico (HC-SR04)
+- 1x Sensor táctil capacitivo (TTP223B)
+- 1x Portapilas para 2 baterías 18650
+- 2x Baterías recargables de iones de litio 18650 (3.7V)
+- 1x Resistencia de 220 Ω
 
 ## Cómo Compilar
 1. Descarga e instala el [Arduino IDE](https://www.arduino.cc/).
