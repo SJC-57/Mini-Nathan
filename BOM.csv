@@ -4,7 +4,7 @@ U1,Arduino Uno R3,ATmega328P microcontroller board - main controller,1,Arduino (
 D1,Red LED,"5mm through-hole LED, red",1,SparkFun,$0.50,https://www.sparkfun.com/led-basic-red-5mm.html
 PIEZO1,Passive Piezo Buzzer (PS1240),Bare piezo disc,1,Adafruit,$1.50,https://www.adafruit.com/product/160
 DIST1,HC-SR04,Ultrasonic distance sensor (4-pin:),1,Adafruit,$3.95,https://www.adafruit.com/product/3942
-BT1,18650 Battery Holder,Two-cell (2x18650) holder with wire leads,1,SparkFun,$1.95,https://www.sparkfun.com/battery-holder-2x18650-wire-leads.html
+-,18650 Battery Holder,Two-cell (2x18650) holder with wire leads,1,SparkFun,$1.95,https://www.sparkfun.com/battery-holder-2x18650-wire-leads.html
 Bat2,18650 Li-ion Cell,3.7V 2600mAh rechargeable cell,2,SparkFun,$9.83,https://www.sparkfun.com/lithium-ion-battery-18650-cell-2600mah.html
 S1,TTP223 Touch Sensor,Capacitive touch sensor TTP223B (replaces S1 pushbutton),1,eBay,$3.44,https://www.ebay.com/itm/165511654199
 R1,220 Ω Resistor,"220Ω, 1/4W through-hole resistor, ±5% tolerance",1,SparkFun,$0.30,https://www.sparkfun.com/resistor-220-ohm-1-4th-watt-pth.html
