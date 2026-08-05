@@ -16,7 +16,7 @@ Consiste en dos servos que hacen mover una cabeza tanto vertical como horizontal
 - 2x Baterías recargables de iones de litio 18650 (3.7V)
 - 1x Resistencia de 220 Ω
 
-## Cómo Compilar
+## Cómo Compilar (Firmware Build & Flashing Instructions)
 
 1. Descarga e instala el [Arduino IDE](https://www.arduino.cc/).
 2. Abre el archivo 'Code/Mini-Nathan/Mini-Nathan.ino' en el Arduino IDE.
