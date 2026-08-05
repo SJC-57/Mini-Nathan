@@ -1,29 +1,29 @@
-## Assembly Guide
+## Guía de Ensamblaje
 
-### 1. Pan Servo & Neck Assembly
+### 1. Ensamblaje del Servo de Giro (Pan) y el Cuello
 
-Insert the bottom pan servo into the circular aperture on the upper part of the base plate. Fasten it securely using screws through the two designated mounting holes.
+Inserte el servo de giro inferior en la abertura circular ubicada en la parte superior de la base. Fíjelo firmemente utilizando tornillos a través de los dos orificios de montaje designados.
 
-Press a standard servo horn onto the pan servo shaft. Screw the 2-axis neck structure directly onto the servo horn so it rotates with the motor axis.
+Presione un brazo de servo (servo horn) estándar sobre el eje de giro del servo. Atornille directamente la estructura del cuello de dos ejes al brazo del servo para que gire junto con el eje del motor.
 
-### 2. Tilt Servo & Head Mount
+### 2. Ensamblaje del Servo de Inclinación (Tilt) y el Soporte de la Cabeza
 
-Place the tilt servo into the mounting slot on the neck structure, securing it with screws using the designated mounting hole (or adhesive).
+Coloque el servo de inclinación en la ranura de montaje de la estructura del cuello y fíjelo con tornillos en los orificios de montaje correspondientes (o con adhesivo, si es necesario).
 
-Attach/glue the upper head plate onto the tilt servo.
+Atornille o pegue la placa superior de la cabeza directamente sobre el servo de inclinación.
 
-### 3. Sensors & Electronics Mounting
+### 3. Montaje de Sensores y Componentes Electrónicos
 
-LED: Press-fit the 5mm LED into the front circular extrusion until snug.
+**LED:** Inserte a presión el LED de 5 mm en la abertura circular frontal hasta que quede firmemente ajustado.
 
-Capacitive Touch Sensor: Secure the sensor to the front interior face using screws through the four pre-modeled screw holes.
+**Sensor táctil capacitivo:** Fije el sensor a la cara interior frontal utilizando tornillos a través de los cuatro orificios de montaje previamente modelados.
 
-Buzzer: Mount the buzzer to the side wall of the base using screws through the two dedicated mounting holes.
+**Zumbador (Buzzer):** Monte el zumbador en la pared lateral de la base utilizando tornillos a través de los dos orificios de montaje dedicados.
 
-Ultrasonic Sensor: Insert the sensor into the designated eye cutouts on the mounting bracket.
+**Sensor ultrasónico:** Inserte el sensor en las aberturas destinadas a los "ojos" del soporte correspondiente.
 
-### 4. Wiring & Enclosure Integration
+### 4. Cableado e Integración de la Carcasa
 
-Place the Arduino board and internal jumper wiring inside the main cavity of the base, aligning the USB interface with the side cutout.
+Coloque la placa Arduino y el cableado interno dentro de la cavidad principal de la base, alineando el puerto USB con la abertura lateral prevista para su acceso.
 
-Align the lower base plate with the main body and press-fit the assembly together using the interference joint.
+Alinee la placa inferior de la base con el cuerpo principal y únalas mediante el ajuste a presión diseñado para el ensamblaje.
