@@ -8,3 +8,4 @@ DIST1,HC-SR04,Ultrasonic distance sensor (4-pin:),1,Adafruit,$3.95,https://www.a
 Bat2,18650 Li-ion Cell,3.7V 2600mAh rechargeable cell,2,SparkFun,$9.83,https://www.sparkfun.com/lithium-ion-battery-18650-cell-2600mah.html
 S1,TTP223 Touch Sensor,Capacitive touch sensor TTP223B (replaces S1 pushbutton),1,eBay,$3.44,https://www.ebay.com/itm/165511654199
 R1,220 Ω Resistor,"220Ω, 1/4W through-hole resistor, ±5% tolerance",1,SparkFun,$0.30,https://www.sparkfun.com/resistor-220-ohm-1-4th-watt-pth.html
+-,HC-SR04 Mounting Bracket,Mounting bracket for ultrasonic sensor,1,Twins Chip,$3.53,https://www.twinschip.com/HC-SR04_Ultrasonic_Bracket
