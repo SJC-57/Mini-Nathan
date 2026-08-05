@@ -20,7 +20,7 @@ Atornille o pegue la placa superior de la cabeza directamente sobre el servo de 
 
 **Zumbador (Buzzer):** Monte el zumbador en la pared lateral de la base utilizando tornillos a través de los dos orificios de montaje dedicados.
 
-**Sensor ultrasónico:** Inserte el sensor en las aberturas destinadas a los "ojos" del soporte correspondiente.
+**Sensor ultrasónico:** Inserte el sensor en las aberturas destinadas a los "ojos" del soporte correspondiente y pegue el soporte a la placa superior del soporte de cabeza.
 
 ### 4. Cableado e Integración de la Carcasa
 
