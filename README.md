@@ -27,6 +27,19 @@ Consiste en dos servos que hacen mover una cabeza tanto vertical como horizontal
 
 Este proyecto está hecho enteramente con el propósito de ser materializado por medio de impresoras 3D. Los archivos listos para imprimirse se pueden encontrar en la carpeta 'STL_Files' en el directorio 'Hardware/Design/STL_Files'.
 
+
+### Schematic Diagram
+The complete electrical schematic designed in EasyEDA:
+
+![Esquematica del Circuito](Hardware/Schematic/Schematic%20Diagram.png)
+
+### Hardware Layout & Wiring 
+*Note: This build uses wiring on a breadboard layout rather than a custom-fabricated PCB.*
+
+Below is the component layout and wiring used:
+
+![Board Layout](Hardware/Schematic/Layout.png)
+
 ## Lista de materiales (BOM)
 
 La lista completa de componentes, cantidades y enlaces de referencia necesarios para construir este proyecto se puede encontrar en el archivo **[BOM](./BOM.csv)** ubicado en la raíz de este repositorio.
