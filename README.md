@@ -28,17 +28,21 @@ Consiste en dos servos que hacen mover una cabeza tanto vertical como horizontal
 Este proyecto está hecho enteramente con el propósito de ser materializado por medio de impresoras 3D. Los archivos listos para imprimirse se pueden encontrar en la carpeta 'STL_Files' en el directorio 'Hardware/Design/STL_Files'.
 
 
-### Schematic Diagram
-The complete electrical schematic designed in EasyEDA:
+## Diagrama esquemático del circuito y organización de la placa
 
-![Esquematica del Circuito](Hardware/Schematic/Schematic%20Diagram.png)
+### Diagrama esquemático
+La esquemática completa diseñada en EasyEDA:
 
-### Hardware Layout & Wiring 
-*Note: This build uses wiring on a breadboard layout rather than a custom-fabricated PCB.*
+![Diagrama esquemático del Circuito](Hardware/Schematic/Schematic%20Diagram.png)
 
-Below is the component layout and wiring used:
+### Organización del hardware y cableado
+*Nota: Este montaje utiliza cableado sobre una protoboard en lugar de una PCB personalizada.*
 
-![Board Layout](Hardware/Schematic/Layout.png)
+A continuación se muestra el cableado utilizado:
+
+![Organización](Hardware/Schematic/Layout.png)
+
+*En el diagrama mostrado arriba, se utiliza un botón pulsador para representar el sensor táctil capacitivo TTP223.*
 
 ## Lista de materiales (BOM)
 
