@@ -42,7 +42,7 @@ A continuación se muestra el cableado utilizado:
 
 ![Organización](Hardware/Schematic/Layout.png)
 
-*En el diagrama mostrado arriba, se utiliza un botón pulsador para representar el sensor táctil capacitivo TTP223.*
+*En el circuito mostrado arriba, se utiliza un botón pulsador para representar el sensor táctil capacitivo TTP223, y las baterías mostradas en el diagrama reemplazan a las baterías recargables 18650.*
 
 ## Lista de materiales (BOM)
 
