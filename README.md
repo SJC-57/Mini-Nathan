@@ -46,4 +46,4 @@ A continuación se muestra el cableado utilizado:
 
 ## Lista de materiales (BOM)
 
-La lista completa de componentes, cantidades y enlaces de referencia necesarios para construir este proyecto se puede encontrar en el archivo **[BOM](./BOM.csv)** ubicado en la raíz de este repositorio.
+La lista completa de componentes, cantidades y enlaces de referencia necesarios para construir este proyecto se puede encontrar en el archivo **[BOM](./BOM.csv)**.
