@@ -26,3 +26,7 @@ Consiste en dos servos que hacen mover una cabeza tanto vertical como horizontal
 ## Impresión 3D
 
 Este proyecto está hecho enteramente con el propósito de ser materializado por medio de impresoras 3D. Los archivos listos para imprimirse se pueden encontrar en la carpeta 'STL_Files' en el directorio 'Hardware/Design/STL_Files'.
+
+## Lista de materiales (BOM)
+
+La lista completa de componentes, cantidades y enlaces de referencia necesarios para construir este proyecto se puede encontrar en el archivo **[BOM](./BOM.csv)** ubicado en la raíz de este repositorio.
