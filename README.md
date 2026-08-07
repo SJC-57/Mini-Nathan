@@ -31,7 +31,7 @@ Este proyecto está hecho enteramente con el propósito de ser materializado por
 ## Diagrama esquemático del circuito y organización del circuito
 
 ### Diagrama esquemático
-La esquemática completa diseñada en EasyEDA:
+La esquemática completa:
 
 ![Diagrama esquemático del Circuito](Hardware/Schematic/Schematic%20Diagram.jpg)
 
