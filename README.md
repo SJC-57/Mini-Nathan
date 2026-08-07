@@ -28,7 +28,7 @@ Consiste en dos servos que hacen mover una cabeza tanto vertical como horizontal
 Este proyecto está hecho enteramente con el propósito de ser materializado por medio de impresoras 3D. Los archivos listos para imprimirse se pueden encontrar en la carpeta 'STL_Files' en el directorio 'Hardware/Design/STL_Files'.
 
 
-## Diagrama esquemático del circuito y organización de la placa
+## Diagrama esquemático del circuito y organización del circuito
 
 ### Diagrama esquemático
 La esquemática completa diseñada en EasyEDA:
