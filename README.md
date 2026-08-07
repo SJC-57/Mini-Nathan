@@ -33,7 +33,7 @@ Este proyecto está hecho enteramente con el propósito de ser materializado por
 ### Diagrama esquemático
 La esquemática completa diseñada en EasyEDA:
 
-![Diagrama esquemático del Circuito](Hardware/Schematic/Schematic%20Diagram.png)
+![Diagrama esquemático del Circuito](Hardware/Schematic/Schematic%20Diagram.jpg)
 
 ### Organización del hardware y cableado
 *Nota: Este montaje utiliza cableado sobre una protoboard en lugar de una PCB personalizada.*
