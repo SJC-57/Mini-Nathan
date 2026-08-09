@@ -1,48 +1,47 @@
 # Mini-Nathan
 
-Este es el primer proyecto de hardware que he hecho.
-Robot que sirve tanto como mascota de mesa como reproductor de música básico. Busca a alguien mirando a los lados y se duerme si no encuentra a nadie por mucho tiempo.
-Consiste en dos servos que hacen mover una cabeza tanto vertical como horizontalmente, un buzzer que reproduce música, un sensor táctil y un led.
+This is my first hardware project.
+A desktop robot that functions as both an interactive pet and a basic music player. It scans its surroundings by panning side to side and goes into a "sleeping" mode if no one is detected after a while.
+The build features two servos that provide 2-axis (pan/tilt) movement for the head, a passive buzzer to play melodies, a capacitive touch sensor, and an LED indicator.
 
-## Materiales: 
+## Materials & Components
 
 - 1x Arduino Uno R3
-- 2x Servo SG90
-- 1x Buzzer pasivo
-- 1x LED 5mm
-- 1x Sensor de distancia ultrasónico (HC-SR04)
-- 1x Sensor táctil capacitivo (TTP223B)
-- 1x Portapilas para 2 baterías 18650
-- 2x Baterías recargables de iones de litio 18650 (3.7V)
-- 1x Resistencia de 220 Ω
+- 2x SG90 Micro Servos
+- 1x Passive Buzzer
+- 1x 5mm LED
+- 1x HC-SR04 Ultrasonic Distance Sensor
+- 1x TTP223B Capacitive Touch Sensor
+- 1x Battery Holder (for 2x 18650 batteries)
+- 2x 18650 Li-ion Rechargeable Batteries (3.7V)
+- 1x 220 Ω Resistor
 
-## Cómo Compilar (Firmware Compilation & Flashing Instructions)
+## Firmware Compilation & Flashing Instructions
 
-1. Descarga e instala el [Arduino IDE](https://www.arduino.cc/).
-2. Abre el archivo 'Code/Mini-Nathan/Mini-Nathan.ino' en el Arduino IDE.
-3. Selecciona la placa: 'Herramientas > Placa > Arduino AVR Boards > Arduino Uno'.
-4. Conecta el Arduino Uno por USB, elige el puerto COM correcto en 'Herramientas > Puerto' y haz clic en Subir (Upload).
-   
-## Impresión 3D
+1. Download and install the [Arduino IDE](https://www.arduino.cc/).
+2. Open the file 'Code/Mini-Nathan/Mini-Nathan.ino' in the Arduino IDE.
+3. Select your board: **Tools > Board > Arduino AVR Boards > Arduino Uno**.
+4. Connect the Arduino Uno via USB, select the corresponding serial port under **Tools > Port**, and click **Upload**.
 
-Este proyecto está hecho enteramente con el propósito de ser materializado por medio de impresoras 3D. Los archivos listos para imprimirse se pueden encontrar en la carpeta 'STL_Files' en el directorio 'Hardware/Design/STL_Files'.
+## 3D Printing
 
+This project is fully designed to be manufactured using standard 3D printers. All print-ready STL files are located in the 'Hardware/Design/STL_Files' directory.
 
-## Diagrama esquemático del circuito y organización del circuito
+## Circuit Schematic & Hardware Layout
 
-### Diagrama esquemático
+### Schematic Diagram
 
-![Diagrama esquemático del Circuito](Hardware/Schematic/Schematic%20Diagram.jpg)
+![Schematic Diagram](Hardware/Schematic/Schematic%20Diagram.jpg)
 
-### Organización del hardware y cableado
-*Nota: Este montaje utiliza cableado sobre una protoboard en lugar de una PCB personalizada.*
+### Hardware Layout & Wiring
+*Note: This assembly uses a breadboard for wiring rather than a custom PCB.*
 
-A continuación se muestra el cableado utilizado:
+Below is the physical layout and pin configuration used in the project:
 
-![Organización](Hardware/Schematic/Layout.png)
+![Layout](Hardware/Schematic/Layout.png)
 
-*En el circuito mostrado arriba, se utiliza un botón pulsador para representar el sensor táctil capacitivo TTP223, y las baterías mostradas en el diagrama reemplazan a las baterías recargables 18650.*
+*Note: In the diagram above, a push button is used as a placeholder to represent the TTP223 capacitive touch sensor, and the generic battery pack represents the 18650 rechargeable Li-ion batteries.*
 
-## Lista de materiales (BOM)
+## Bill of Materials (BOM)
 
-La lista completa de componentes, cantidades y enlaces de referencia necesarios para construir este proyecto se puede encontrar en el archivo **[BOM](./BOM.csv)**.
+The full component list, quantities, and reference links required to build this project can be found in the **[BOM](./BOM.csv)** file.
