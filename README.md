@@ -20,8 +20,8 @@ The build features two servos that provide 2-axis (pan/tilt) movement for the he
 
 1. Download and install the [Arduino IDE](https://www.arduino.cc/).
 2. Open the file 'Code/Mini-Nathan/Mini-Nathan.ino' in the Arduino IDE.
-3. Select your board: **Tools > Board > Arduino AVR Boards > Arduino Uno**.
-4. Connect the Arduino Uno via USB, select the corresponding serial port under **Tools > Port**, and click **Upload**.
+3. Select your board: Tools > Board > Arduino AVR Boards > Arduino Uno.
+4. Connect the Arduino Uno via USB, select the corresponding serial port under Tools > Port, and click **Upload**.
 
 ## 3D Printing
 
